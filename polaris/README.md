@@ -1,0 +1,2 @@
+# Polaris
+To detect AprilTags, Nik used two Arducam OV2311s connected to one Orange Pi 5 each. This folder contains Polaris, a copy of [Team 6328's NorthStar](https://github.com/Mechanical-Advantage/AdvantageKit/tree/ns-dev/akit/py/northstar) with a few minor changes.
