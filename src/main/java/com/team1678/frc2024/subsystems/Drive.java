@@ -598,7 +598,9 @@ public class Drive extends Subsystem {
 		Rotation2d pitch = new Rotation2d();
 
 		// Outputs
-		SwerveModuleState[] des_module_states = new SwerveModuleState[4];
+		SwerveModuleState[] des_module_states = new SwerveModuleState[] {
+			new SwerveModuleState(), new SwerveModuleState(), new SwerveModuleState(), new SwerveModuleState()
+		};
 		Twist2d predicted_velocity = Twist2d.identity();
 		Translation2d translational_error = Translation2d.identity();
 		Rotation2d heading_error = Rotation2d.identity();
