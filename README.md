@@ -14,7 +14,7 @@ See also:
 
 - Vision Pose Correction
 
-    The robot continously records and stores the most recent vision and odometry updates in a [robot state class](/src/main/java/com/team1678/frc2024/RobotState.java#L33), and feeds the information into a [unscented kalman filter](/src/main/java/com/team1678/frc2024/RobotState.java#L114). The localization factors in [number of tags seen, average distance to tags, and closest tag](/src/main/java/com/team1678/frc2024/subsystems/vision/VisionDevice.java#L69) when calculating trust factor.
+    The robot continously records and stores the most recent vision and odometry updates in a [robot state class](/src/main/java/com/team1678/frc2024/RobotState.java#L33), and feeds the information into an [extended kalman filter](/src/main/java/com/team1678/frc2024/RobotState.java#L114). The localization factors in [number of tags seen, average distance to tags, and closest tag](/src/main/java/com/team1678/frc2024/subsystems/vision/VisionDevice.java#L69) when calculating trust factor.
 
 - Auto Aim
 
